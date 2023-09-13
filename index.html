@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" media="screen" />
+</head>
+
+<body>
+    <div id="header">
+        <p>Игра "Память"</p>
+        <button id="game">Начать</button>
+    </div>
+     <hr>
+    <div class="cards">
+        <div class="card" id="card0"></div>
+        <div class="card" id="card1"></div>
+        <div class="card" id="card2"></div>
+        <div class="card" id="card3"></div>
+        <div class="card" id="card4"></div>
+    </div>
+    <div class="cards">
+        <div class="card" id="card5"></div>
+        <div class="card" id="card6"></div>
+        <div class="card" id="card7"></div>
+        <div class="card" id="card8"></div>
+        <div class="card" id="card9"></div>
+    </div>
+    <div id="divend" class="hidden">
+        <button class="maxsize"  onclick="endGame()">Вы победили!
+    </div>
+    <div id="end2" class="block hidden">
+    <p class="maxsize_ph">Вы хотите продолжить игру?</p>
+    <div id="divend2">
+        <button class="maxsize" onclick="yes()">Да</button>
+        <button class="maxsize" onclick="no()">Нет</button>
+    </div>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
